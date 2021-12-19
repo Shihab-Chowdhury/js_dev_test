@@ -1,2 +1,2 @@
 # js_dev_test
-JavaScript Developer Code Test (meldCX)
+JavaScript Developer Code Test

@@ -4,5 +4,9 @@
 #include <nan.h>
 
 NAN_METHOD(enumDisplayCount);
+NAN_METHOD(sleepDisplay);
+NAN_METHOD(sleepDisplayMessage);
+NAN_METHOD(wakeDisplay);
+NAN_METHOD(wakeDisplayMessage);
 
 #endif
