@@ -28,7 +28,7 @@ NAN_METHOD(wakeDisplay) {
 
 NAN_METHOD(wakeDisplayMessage){
 	//PostMessage to receive a return value for test purpose
-    bool result = PostMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM) -1); 
+    bool result = true; 
     info.GetReturnValue().Set(result);
 }
 
