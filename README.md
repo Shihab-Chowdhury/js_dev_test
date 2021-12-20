@@ -11,4 +11,4 @@ In this directory run:
 
 3. npm start: To run all the functions**
 
-** **Warning: Display will go to sleep due to the sleep function**
+** **Warning: Display will go to sleep momentarily due to the sleep function**
