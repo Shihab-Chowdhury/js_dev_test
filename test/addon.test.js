@@ -1,25 +1,21 @@
-let addon = require("../build/Release/addon")
-
-function wake() {
-    if (addon.wakeDisplayMessage()) {
-        return true
-    } 
-    return false;
-}
+let addon = require("../src/addon.js")
 
 //Enumerate the attached displays
-test("Test 1: Expect function to return the number of attached displays", () => {
-	expect(addon.enumDisplayCount()).toEqual(expect.any(Number));
+test("Test 1: Expect function to return the number of attached displays.", () => {
+	expect(addon.display()).toEqual(expect.any(Number));
 });
 
 //Request the displays to sleep
-test("Test 2: Expect the function to return true to make sure it passed", () => {
-	expect(addon.sleepDisplayMessage()).toBe(true);
+test("Test 2: Expect the function to return true to make sure it passed.", () => {
+	expect(addon.sleep()).toBe(true);
 });
 
-// //Request the displays to wake
-test("Test 3: Expect the function to return true to make sure it passed", () => {
-	expect(wake()).toBe(true);
+//Request the displays to wake
+test("Test 3: Expect the function to return true to make sure it passed.", () => {
+	expect(addon.wake()).toBe(true);
 });
 
 //Return the last input time
+test("Test 4: Expect the function to return the last input time in seconds.", () => {
+	expect(addon.lastInputTime()).toEqual(expect.any(Number));
+});

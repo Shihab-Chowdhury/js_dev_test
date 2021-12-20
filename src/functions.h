@@ -5,8 +5,9 @@
 
 NAN_METHOD(enumDisplayCount);
 NAN_METHOD(sleepDisplay);
-NAN_METHOD(sleepDisplayMessage);
+// NAN_METHOD(sleepDisplayMessage);
 NAN_METHOD(wakeDisplay);
-NAN_METHOD(wakeDisplayMessage);
+// NAN_METHOD(wakeDisplayMessage);
+NAN_METHOD(lastInputTime);
 
 #endif
