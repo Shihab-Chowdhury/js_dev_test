@@ -6,7 +6,7 @@ function display() {
         let result = addon.enumDisplayCount();
         return result
     } catch (error) {
-        console.log();
+        console.log(error);
     }
 }
 

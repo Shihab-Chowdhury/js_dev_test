@@ -1,12 +1,14 @@
 # js_dev_test
 JavaScript Developer Code Test
 
-In this directory run =
+A node module using Node NAN
 
-1. npm install: Install all the dependencies as well as configure and build.
+In this directory run:
 
-2. npm test: To run test.**
+1. npm install: Will run node-gyp rebuild for compilation.
 
-3. npm start: To run the script.**
+2. npm test: To test all functions**
 
-** **Warning: Display will go to sleep due to the sleep function**
+3. npm start: To run all the functions**
+
+** **Warning: Display will go to sleep momentarily due to the sleep function**
