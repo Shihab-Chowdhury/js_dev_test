@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./src/addon.js",
     "test": "jest",
-    "install": "node-gyp rebuild"
+    "build": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
