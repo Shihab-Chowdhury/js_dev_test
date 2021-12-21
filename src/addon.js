@@ -31,7 +31,7 @@ function wake() {
 };
 
 //Return the last input time
-function lastInputTime(params) {
+function lastInputTime() {
     try {
         let result = addon.lastInputTime();
         return result
