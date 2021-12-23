@@ -5,7 +5,7 @@ A node module using Node NAN
 
 In this directory run:
 ```
-1. npm build: Will run node-gyp rebuild for compilation.
+1. npm run build: Will run node-gyp rebuild for compilation.
 
 2. npm test: To test all functions**
 
